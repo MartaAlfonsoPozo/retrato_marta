@@ -1,4 +1,6 @@
-void marta() {
+void marta(float posx, float posy) {
+  translate(posx,posy);
+  push();
   //cara
   line(m*3,m*6,m*3,m*9);
   line(m*3,m*6,m*6,m*3);
@@ -27,5 +29,5 @@ void marta() {
   arc(m*6,m*6.8,50,50,radians(200),radians(340));
   arc(m*9,m*6.8,50,50,radians(200),radians(340));
   arc(m*7.5,m*9.5,150,70,radians(0),radians(180));
-
+pop();
 }
