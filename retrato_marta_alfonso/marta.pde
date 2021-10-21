@@ -27,5 +27,5 @@ void marta() {
   arc(m*6,m*6.8,50,50,radians(200),radians(340));
   arc(m*9,m*6.8,50,50,radians(200),radians(340));
   arc(m*7.5,m*9.5,150,70,radians(0),radians(180));
-  noLoop();
+
 }
