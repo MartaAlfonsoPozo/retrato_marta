@@ -1,0 +1,44 @@
+void mariasaavedra(float posx, float posy) {
+  push();
+  translate(posx, posy);
+  //gorro
+  line(m,m*4,m*9,m*4);
+  line(m*9,m*4,m*8,m*3);
+  line(m*8,m*3,m*7,m);
+  line(m*7,m,m*3,m);
+  line(m*3,m,m*2,m*3);
+  line(m*2,m*3,m,m*4);
+  line(m*2,m*3,m*8,m*3);
+  //pelo
+  line(m*2,m*4,m*2,m*5);
+  line(m*2,m*5,m,m*6);
+  line(m,m*6,m*3,m*7);
+  line(m*3,m*7,m*4,m*7);
+  line(m*4,m*7,m*5,m*8);
+  line(m*5,m*8,m*6,m*7);
+  line(m*6,m*7,m*7,m*7);
+  line(m*7,m*7,m*9,m*6);
+  line(m*9,m*6,m*8,m*5);
+  line(m*8,m*5,m*8,m*4);
+  //cabeza
+  line(m*3,m*5,m*3,m*4);
+  line(m*3,m*5,m*4,m*6);
+  line(m*4,m*6,m*4,m*7);
+  line(m*7,m*4,m*7,m*5);
+  line(m*7,m*5,m*6,m*6);
+  line(m*6,m*6,m*6,m*7);
+  //camiseta
+  line(m*3,m*7,m*2,m*8);
+  line(m*2,m*8,m*2,m*9);
+  line(m*2,m*9,m*8,m*9);
+  line(m*8,m*9,m*8,m*8);
+  line(m*8,m*8,m*7,m*7);
+  //cara
+  fill(0);
+  arc(m*4,m*4,m/2,m/2,radians(0),radians(180));
+  arc(m*6,m*4,m/2,m/2,radians(0),radians(180));
+  ellipseMode(CENTER);
+  noFill();
+  ellipse(m*5,m*5,m/4,m/4+m/8);
+  pop();
+}
